@@ -1207,3 +1207,30 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+.downloadcvbutton {
+  border: 2px solid #149ddd; /* Slightly thicker border */
+  background-color: #149ddd;
+  color: white; /* Set text color */
+  padding: 10px 5px; /* Add padding for better spacing */
+  margin-left: 0px;
+  font-size: 16px; /* Adjust font size */
+  font-weight: bold; /* Make text bold */
+  text-transform: uppercase; /* Uppercase text */
+  border-radius: 4px; /* Add border radius for rounded corners */
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+.downloadcvbutton:hover {
+  background-color: #54a9d1;
+  border-color: rgb(67, 67, 255);
+}
+
+/* Keep the existing styling for the span */
+.spandownload {
+  color: black;
+  transition: color 0.3s ease;
+}
+
+.spandownload:hover {
+  color: white;
+}
